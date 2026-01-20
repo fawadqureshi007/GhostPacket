@@ -80,7 +80,7 @@ pip install scapy
 ### Run the script with administrator or root privileges:
 
 ```bash
-sudo python3 arp_spoof.py -t <target_ip> -g <gateway_ip>
+sudo python3 arp.py -t <target_ip> -g <gateway_ip>
 ```
 
 ### Arguments
@@ -94,7 +94,7 @@ sudo python3 arp_spoof.py -t <target_ip> -g <gateway_ip>
 ### Example
 
 ```bash
-sudo python3 arp_spoof.py -t 192.168.1.100 -g 192.168.1.1
+sudo python3 arp.py -t 192.168.1.100 -g 192.168.1.1
 ```
 
 Press **Ctrl + C** to stop the attack and automatically restore the ARP tables.
